@@ -24,7 +24,7 @@ count: 0
  render(){
     return <div>
       <h1>Counter App</h1>
-      <p>Count:{this.state.count}</p>
+      <p>Count: {this.state.count}</p>
       <button type="button" onClick={this.increment}>Increment</button>
       <button type="button" onClick={this.decrement}>Decrement</button>
 
